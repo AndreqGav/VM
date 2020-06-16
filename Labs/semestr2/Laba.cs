@@ -133,6 +133,8 @@ namespace WelcomeToVichMat.Labs.semestr2
 
         public override void Solve()
         {
+            _iteration = 0;
+
             double tempU = U_b();
 
             while (Math.Abs(tempU - B) > _eps && _maxIteration > _iteration)
@@ -148,36 +150,39 @@ namespace WelcomeToVichMat.Labs.semestr2
             }
         }
 
-        // решение (U)
-        private static double U(double x, double u, double v)
+        // решение (U) = y
+        private static double U(double x, double u, double w)
         {
-            return x * x;
+            return x * x; // тест 1, тест 2, тест 3
         }
 
-        // первая производная (U')
-        private static double Du(double x, double u, double v)
+        // первая производная (U') = w
+        private static double Du(double x, double u, double w)
         {
-            return 2.0 * x;
+            return 2.0 * x; // тест 1 тест 2 тест 3
         }
 
-        // правая часть (U'')
-        private static double F(double x = 0, double u = 0, double v = 0)
+        // правая часть (U'') = f
+        private static double F(double x = 0, double u = 0, double w = 0)
         {
-            //    return 2.0 + x*x - U_b; //при нелинейной погрешности
-            //    return 2.0 + U_b*v - 2.0*x*x*x; //при линейная погрешности
-            return 2;
+            //return 2; // тест 1
+            //return 2.0 + x * x - u; // тест 2
+            return 2.0 + u * w - 2.0 * x * x * x; // тест 3
         }
 
         // dfdu/duda
         private static double Dfdu(double x, double u, double w)
         {
-            return 0;
+            //return 0; // тест 1
+            //return -1; // тест 2
+            return w; // тест 3
         }
 
-        // dfd2/d2da
+        // dfdw/dwda
         private static double Dfdw(double x, double u, double w)
         {
-            return 0;
+            //return 0; // тест 1 тест 2
+            return u; // тест 3
         }
 
         private double U_b()

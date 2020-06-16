@@ -15,7 +15,7 @@
             <TextBlock x:Name="welcome" HorizontalAlignment="Left" Margin="259,10,0,0" TextWrapping="Wrap" Text="Лабораторная работа№4" VerticalAlignment="Top" FontSize="24"/>
             <TextBlock x:Name="student" HorizontalAlignment="Left" Margin="439,47,0,0" TextWrapping="Wrap" Text="Выполнил: студент 3 курса,ФИИТ, ПММ                                             Гаврилов Андрей" VerticalAlignment="Top" FontSize="20" Width="325" Height="85"/>
             <TextBlock x:Name="prepod" HorizontalAlignment="Left" Margin="439,132,0,0" TextWrapping="Wrap" Text="Проверила: Шабунина З.А" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.653,0.807"/>
-            <TextBlock x:Name ="data" HorizontalAlignment="Left" Margin="27,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="107" Width="270"/>
+            <TextBlock x:Name ="data" HorizontalAlignment="Left" Margin="27,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="270" FontSize="16"/>
         </Grid>
     </Grid>
 

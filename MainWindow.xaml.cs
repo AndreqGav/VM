@@ -20,7 +20,7 @@ namespace VichMat.Solution
         {
             Initialize();
 
-            var laba = new Laba();
+            var laba = new LastLaba();
         }
 
         private void Initialize()
