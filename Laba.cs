@@ -15,7 +15,7 @@ namespace WelcomeToVichMat
 
     public abstract class BaseLaba : ILaba
     {
-        protected readonly Solution solution;
+        public readonly Solution solution;
         protected int? accuracyOutput = 5;
 
         protected BaseLaba()

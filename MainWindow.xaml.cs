@@ -19,8 +19,6 @@ namespace VichMat.Solution
         public MainWindow()
         {
             Initialize();
-
-            var laba = new LastLaba();
         }
 
         private void Initialize()
@@ -58,6 +56,9 @@ namespace VichMat.Solution
 
         void RunSolution()
         {
+            var laba = new LastLaba();
+            SetSolution(laba.solution);
+
             _solution.Start();
         }
 

@@ -11,11 +11,11 @@
     <Grid Margin="0,0,0,29">
         <Grid Margin="10,0,11,11" Background="#FFE8E8E8">
             <Button x:Name="helloButton" Content="Начать" HorizontalAlignment="Left" Margin="320,179,0,0" Width="109" Opacity="0.7" RenderTransformOrigin="0.04,5.156" Height="32" VerticalAlignment="Top" Click="helloButton_Click" Background="#FFDAB462" BorderBrush="#FFC5C5C5"/>
-            <DataGrid x:Name="table" Margin="10,216,20,10" CanUserResizeColumns="False" ColumnWidth="*" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True"/>
-            <TextBlock x:Name="welcome" HorizontalAlignment="Left" Margin="259,10,0,0" TextWrapping="Wrap" Text="Лабораторная работа№4" VerticalAlignment="Top" FontSize="24"/>
+            <DataGrid x:Name="table" Margin="10,216,20,10" CanUserResizeColumns="True" ColumnWidth="*" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True"/>
+            <TextBlock x:Name="welcome" HorizontalAlignment="Left" Margin="259,10,0,0" TextWrapping="Wrap" Text="Лабораторная работа№5" VerticalAlignment="Top" FontSize="24"/>
             <TextBlock x:Name="student" HorizontalAlignment="Left" Margin="439,47,0,0" TextWrapping="Wrap" Text="Выполнил: студент 3 курса,ФИИТ, ПММ                                             Гаврилов Андрей" VerticalAlignment="Top" FontSize="20" Width="325" Height="85"/>
             <TextBlock x:Name="prepod" HorizontalAlignment="Left" Margin="439,132,0,0" TextWrapping="Wrap" Text="Проверила: Шабунина З.А" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.653,0.807"/>
-            <TextBlock x:Name ="data" HorizontalAlignment="Left" Margin="27,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="270" FontSize="16"/>
+            <TextBlock x:Name ="data" HorizontalAlignment="Left" Margin="27,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="79" Width="270" FontSize="16"/>
         </Grid>
     </Grid>
 

@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Extensions\StreamReaderExtensions.cs" />
     <Compile Include="Laba.cs" />
     <Compile Include="Labs\semestr2\Laba.cs" />
     <Compile Include="Labs\semestr2\LastLaba.cs" />

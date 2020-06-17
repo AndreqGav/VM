@@ -18,7 +18,6 @@ namespace VichMat.Solution
         public Solution()
         {
             _window = MainWindow.GetWindow();
-            MainWindow.SetSolution(this);
         }
 
         public Solution(
